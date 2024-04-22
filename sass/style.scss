@@ -1,0 +1,279 @@
+
+    @use "textos";
+    $principal: #FBB50A;
+
+
+
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+} 
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: $principal;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10pxs;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+main{
+    background-image: url(./media/img/fiesta.jpg);
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    background-image: url(./media/img/fiesta2.png);
+    background-repeat: no-repeat;
+    background-color: purple;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.nosotros-main{
+    background-image: none;
+    font-size: 50px;
+    margin: 30px;
+    padding: 10px;
+    background-color: coral;
+    flex: center;
+    text-align: center;
+}
+
+.nosotros-1{
+    background-image: none;
+}
+
+.footer2{
+    background-image: none;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+input[type="text"]
+input[type="password"]
+input[type="sumbit"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+input[type="sumbit"]{
+    background-color: $principal;
+    color: white;
+    cursor: pointer;
+}
+.event-info{
+    background-color: $principal;
+}
+
+.logo2{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.events{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+.container2{
+    background-color: $principal;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black
+}
+
+form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.label2{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"]
+input[type="date"]
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.click{
+    width: 100%;
+    padding: 10px;
+    background-color: $principal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.click:hover{
+    background-color: $principal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sisi2{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./media/img/fiesta.jpg);
+}
+
+.esel2{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 0 0 20px black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+label, p{
+    font-size: 17px;
+    color: #575757;
+    margin-bottom: 10px;
+}
+
+.fixed{
+    padding: 17px 11px;
+    border: 1px solid #00adef;
+}
+
+@media (max-width: 768px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo img{
+        margin-bottom: 10px;
+    }
+    nav{
+        margin-top: 10px;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        display: flex;
+        min-height: 70px;
+        background-color: $principal;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    .logo{
+        height: 50px;
+        margin-right: 10px;
+    }
+    nav{
+        display: flex;
+    }
+    nav a{
+        font-weight: 600;
+        padding-right: 10px;
+        text-decoration: none;
+        color: black;
+
+    }
+    nav a:hover{
+        color: white;
+
+    }
+    main{
+        padding: 20px;
+        text-align: center;
+    }
+p{
+    margin-bottom: 20px;
+}
+button{
+    margin: 0 10px 20px;
+    padding: 10px 20px;
+    background-color: $principal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.text-container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+}

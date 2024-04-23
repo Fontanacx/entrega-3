@@ -1,4 +1,2 @@
-Hola tutor@ aqui le dejo mi proyecto
-Ya corregi los errores semanticos que me indico y el cierre de etiquetas tambien cambie para que todos mis navs sean iguales y ahora la pagina de login y register es navegable
-
-Todas funcionan en responsive tambien use sass y solo cree una anidacion ya que solo veia necesaria separar los textos (h1,h2,h3 y parrafos) en diferente sass para no tener uno solo con todo,  tambien use SEO como indicaron
+Hola tutora aqui le dejo mi proyecto
+Ya corregi los errores que me indico tambien agregue un nuevo html para que sea distinto 
